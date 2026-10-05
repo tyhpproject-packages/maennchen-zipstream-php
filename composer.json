@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/maennchen-zipstream-php",
+    "description": "Tyhp type definitions for maennchen/zipstream-php 3.2.2.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "3.2.2",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/maennchen-zipstream-php-impl": "~3.2.2.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/maennchen-zipstream-php-impl"
+        }
+    }
+}
